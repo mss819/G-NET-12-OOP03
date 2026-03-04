@@ -1,4 +1,6 @@
 ﻿using System.Collections;
+using System.ComponentModel;
+using System.Reflection.Metadata;
 using System.Runtime.ConstrainedExecution;
 
 namespace G_NET_12_OOP03
@@ -36,6 +38,12 @@ namespace G_NET_12_OOP03
             //d) A Team has Players. If the team is deleted, the players still exist.
             //the Answer : Aggregation
 
+            #endregion
+
+            #region Question 5
+
+            //e) A method receives a Logger as a parameter and calls it inside the method only.
+            //the answer : Dependency
             #endregion
 
             #endregion
