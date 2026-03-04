@@ -1,4 +1,5 @@
-﻿using System.Runtime.ConstrainedExecution;
+﻿using System.Collections;
+using System.Runtime.ConstrainedExecution;
 
 namespace G_NET_12_OOP03
 {
@@ -27,6 +28,13 @@ namespace G_NET_12_OOP03
 
             //c) A Dog is an Animal
             //the answer : Inheritance
+
+            #endregion
+
+            #region Question 4
+
+            //d) A Team has Players. If the team is deleted, the players still exist.
+            //the Answer : Aggregation
 
             #endregion
 
