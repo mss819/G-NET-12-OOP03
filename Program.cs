@@ -23,6 +23,13 @@ namespace G_NET_12_OOP03
 
             #endregion
 
+            #region Question 3
+
+            //c) A Dog is an Animal
+            //the answer : Inheritance
+
+            #endregion
+
             #endregion
         }
     }
