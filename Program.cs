@@ -48,6 +48,25 @@ namespace G_NET_12_OOP03
 
             #endregion
 
+            #region Part 2
+
+            //a) A parent class has a protected field.Can a child class in a different assembly
+            //access it? What about through an object instance from outside?
+            //Answer : yes the child can Access it And Can Take A instance 
+
+            //b) What is the difference between protected internal and private protected?
+            //Answer : Protected Internal ==> Accessiable anywhere in The Same Assembly or different
+            //         private Protected ==> Accessable in the same Assembly and the same class Only
+
+            //c) What does the sealed keyword do when applied to a class? What about when applied to a method?
+            //answer : When applyed to class cannot innherit from this class
+            //And when on the method if you inherit from this class the method doesnot inherit
+
+            //d) Can you create an object from a sealed class using new? Why or why not?
+            //Answer : yes you can sealed Prevent inherit only
+
+            #endregion
+
             #region Part 3
             Cinema cinema = new Cinema("Galaxy");
 
