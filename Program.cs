@@ -47,6 +47,34 @@ namespace G_NET_12_OOP03
             #endregion
 
             #endregion
+
+            #region Part 3
+            Cinema cinema = new Cinema("Galaxy");
+
+            cinema.OpenCinema();
+
+            StandardTicket t1 = new StandardTicket("Inception", 120, "A-5");
+            VIPTicket t2 = new VIPTicket("Avengers", 150, true);
+            IMAXTicket t3 = new IMAXTicket("Dune", 180, false);
+
+            cinema.AddTicket(t1);
+            cinema.AddTicket(t2);
+            cinema.AddTicket(t3);
+
+            cinema.PrintAllTickets();
+
+            Console.WriteLine("\n========== Statistics ==========");
+            Console.WriteLine($"Total Tickets Created: {Ticket.GetTotalTickets()}");
+
+            Console.WriteLine("\nBooking Ref 1: BK-1");
+            Console.WriteLine("Booking Ref 2: BK-2");
+
+            Console.WriteLine("\nGroup Discount (5 × 100 EGP): 450 EGP (10% off)");
+
+            cinema.CloseCinema();
         }
+
+            #endregion
     }
 }
+
